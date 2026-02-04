@@ -12,10 +12,10 @@ ascii_art = """
 | || |\/||| |  _    / \ | / \|  |  \/|| | \||  __\
 | || |  ||| |_//    | | | \_/|  |  __/| |_/|| |   
 \_/\_/  \|\____\    \_/ \____/  \_/   \____/\_/   
-                                                     
-"""
+                                                  
+""" 
 
-st.text(ascii_art)
+st.code(ascii_art, language=None)
 
 st.title("🖼️ Imagem para PDF")
 st.write("Suba sua imagem e baixe o PDF convertido instantaneamente.")
