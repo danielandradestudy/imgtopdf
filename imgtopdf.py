@@ -5,11 +5,11 @@ import io
 # Configuração da página
 st.set_page_config(page_title="Conversor de Imagem para PDF", page_icon="📄")
 
-st.title("🖼️ Conversor de imagem para PDF")
+st.title("------ Conversor de imagem para PDF ------")
 st.write("Suba sua imagem e baixe o PDF convertido instantaneamente.")
 
 # Widget de Upload
-uploaded_file = st.file_uploader("Escolha uma imagem, suba umaimagem por vez!", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Escolha uma imagem, suba uma imagem por vez! :) ", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Exibe uma prévia da imagem
@@ -37,6 +37,7 @@ if uploaded_file is not None:
         )
 
         st.success("Conversão concluída com sucesso!")
+
 
 
 
