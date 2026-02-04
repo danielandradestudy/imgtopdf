@@ -20,8 +20,8 @@ ascii_art = """
 
 st.code(ascii_art, language=None)
 
-st.title("Apenas mais um conversor de imagem para PDF")
-st.write("Suba sua imagem e baixe o PDF convertido instantaneamente.")
+#st.title("Apenas mais um conversor de imagem para PDF")
+#st.write("Suba sua imagem e baixe o PDF convertido instantaneamente.")
 
 # Widget de Upload
 uploaded_file = st.file_uploader("Escolha uma imagem... Suba um arquivo por vez! :)", type=["jpg", "jpeg", "png"])
